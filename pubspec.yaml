@@ -106,6 +106,10 @@ flutter:
     - family: Purple3
       fonts:
         - asset: assets/fonts/purple-3.ttf
+    - family: HarryP
+      fonts:
+        - asset: assets/fonts/HARRYP__.TTF
+
   
   #
   # For details regarding fonts from package dependencies,

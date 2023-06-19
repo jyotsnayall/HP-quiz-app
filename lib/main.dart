@@ -30,8 +30,14 @@ class _MyAppState extends State<MyApp> {
       "correctAns": "Seeker",
     },
     {
-      "question": "From which platform at Kings Cross does the Hogwarts Express train depart?",
-      "answers": ["Gringotts", "wand", "Nine and three-quarters", "The trolls club"],
+      "question":
+          "From which platform at Kings Cross does the Hogwarts Express train depart?",
+      "answers": [
+        "Gringotts",
+        "wand",
+        "Nine and three-quarters",
+        "The trolls club"
+      ],
       "correctAns": "Nine and three-quarters",
     },
     {
@@ -84,7 +90,13 @@ class _MyAppState extends State<MyApp> {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("UE208049"),
+          title: const Text(
+            "UE208049",
+            style: TextStyle(
+              fontFamily: 'HarryP',
+              fontSize: 28,
+            ),
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.refresh),
