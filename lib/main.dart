@@ -100,20 +100,6 @@ class _MyAppState extends State<MyApp> {
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.refresh),
-          // child: Row(
-          //   children: [
-          //     Icon(Icons.refresh),
-          //     SizedBox(width: 5),
-          //     Text(
-          //       "Reset",
-          //       textAlign: TextAlign.center,
-          //       style: TextStyle(
-          //         color: Colors.white,
-          //         fontWeight: FontWeight.bold,
-          //       ),
-          //     ),
-          //   ],
-          // ),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.all(
               Radius.circular(15.0),
